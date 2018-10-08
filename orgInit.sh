@@ -1,0 +1,16 @@
+heroku ps:scale web=0 -a df18-dubsmash-api-production
+heroku ps:scale trendingvelocityscores=0 -a df18-dubsmash-api-production
+heroku ps:scale celerylastactive=0 -a df18-dubsmash-api-production
+heroku ps:scale bigqueryinserter=0 -a df18-dubsmash-api-production
+heroku ps:scale snipcounts=0 -a df18-dubsmash-api-production
+heroku ps:scale celerysqs=0 -a df18-dubsmash-api-production
+heroku ps:scale celerypubsub=0 -a df18-dubsmash-api-production
+heroku ps:scale indexupdater=0 -a df18-dubsmash-api-production
+heroku ps:scale trendingevents=0 -a df18-dubsmash-api-production
+heroku ps:scale bigquerypartitioner=0 -a df18-dubsmash-api-production
+heroku ps:scale celeryreports=0 -a df18-dubsmash-api-production
+heroku ps:scale celerysoundboards=0 -a df18-dubsmash-api-production
+heroku ps:scale celerytracking=0 -a df18-dubsmash-api-production
+heroku ps:scale celeryuserchanges=0 -a df18-dubsmash-api-production
+heroku ps:scale trendingvelocityevents=0 -a df18-dubsmash-api-production
+heroku ps:scale trendingzscores=0 -a df18-dubsmash-api-production
